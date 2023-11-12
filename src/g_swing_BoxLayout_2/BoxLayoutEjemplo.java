@@ -23,7 +23,7 @@ public class BoxLayoutEjemplo extends JFrame {
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
 
         // Etiqueta de texto
-        JLabel etiqueta = new JLabel("Indícame tu nombre:");
+        JLabel etiqueta = new JLabel("Dime tu nombre:");
         etiqueta.setAlignmentX(Component.CENTER_ALIGNMENT);
         panel.add(etiqueta);
 

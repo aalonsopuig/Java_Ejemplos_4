@@ -40,7 +40,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando se hace clic con el ratón.
+     * Este método se llama cuando se hace clic con el ratón. (MouseListener)
      * @param e El evento de ratón.
      */
     public void mouseClicked(MouseEvent e) {
@@ -51,7 +51,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando el ratón entra en un componente.
+     * Este método se llama cuando el ratón entra en un componente. (MouseListener)
      * @param e El evento de ratón.
      */
     public void mouseEntered(MouseEvent e) {
@@ -59,7 +59,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando el ratón sale de un componente.
+     * Este método se llama cuando el ratón sale de un componente. (MouseListener)
      * @param e El evento de ratón.
      */
     public void mouseExited(MouseEvent e) {
@@ -67,7 +67,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando se presiona un botón del ratón.
+     * Este método se llama cuando se presiona un botón del ratón. (MouseListener)
      * @param e El evento de ratón.
      */
     public void mousePressed(MouseEvent e) {
@@ -75,7 +75,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando se suelta un botón del ratón.
+     * Este método se llama cuando se suelta un botón del ratón. (MouseListener)
      * @param e El evento de ratón.
      */
     public void mouseReleased(MouseEvent e) {
@@ -83,7 +83,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando se arrastra el ratón.
+     * Este método se llama cuando se arrastra el ratón. (MouseMotionListener)
      * @param e El evento de ratón.
      */
     public void mouseDragged(MouseEvent e) {
@@ -91,7 +91,7 @@ public class Ex_Mouse extends JFrame implements MouseListener, MouseMotionListen
     }
 
     /**
-     * Este método se llama cuando se mueve el ratón.
+     * Este método se llama cuando se mueve el ratón. (MouseMotionListener)
      * @param e El evento de ratón.
      */
     public void mouseMoved(MouseEvent e) {

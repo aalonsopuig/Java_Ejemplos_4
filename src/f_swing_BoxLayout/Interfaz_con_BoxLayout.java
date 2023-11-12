@@ -17,9 +17,9 @@ public class Interfaz_con_BoxLayout extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(320, 150);
     // Creamos componentes 
-        JButton boton1 = new JButton("Botón 1");
-        JButton boton2 = new JButton("Botón 2");
-        JButton boton3 = new JButton("Botón 3");
+        JButton boton1 = new JButton("Button 1");
+        JButton boton2 = new JButton("Button 2");
+        JButton boton3 = new JButton("Button 3");
         boton1.setAlignmentX(Component.CENTER_ALIGNMENT);
         boton2.setAlignmentX(Component.CENTER_ALIGNMENT);
         boton3.setAlignmentX(Component.CENTER_ALIGNMENT);
