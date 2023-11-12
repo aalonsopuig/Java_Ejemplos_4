@@ -27,8 +27,7 @@ public class ExFrameEvents extends JFrame implements ActionListener {
         // Creamos un panel con BorderLayout
         panel = new JPanel();
         panel.setLayout(new BorderLayout());
-        panel.setBackground(getRandomColor());
-
+ 
         // Agregamos el panel al JFrame
         getContentPane().add(panel);
         setLocationRelativeTo(null); // Centra la ventana en la pantalla
