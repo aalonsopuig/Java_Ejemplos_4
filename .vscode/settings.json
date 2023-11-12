@@ -1,0 +1,9 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-20",
+            "path": "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath",
+            "default": true
+        }
+    ]
+}
