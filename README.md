@@ -13,3 +13,5 @@ Ejemplos disponibles:<br>
 - **g_swing_BoxLayout_2**: Creación con Java Swing de un interfaz con BoxLayout
 - **h_eventos_botones**: Ejemplo de interfaz gráfico con acciones asociadas. Al hacer clic en el botón, se muestra un mensaje en la consola
 - **i_eventos_botones_2**: Ejemplo de interfaz gráfico con acciones asociadas. Contiene dos botones para salir de la aplicación y cambiar el color de fondo del panel
+- **j_eventos_teclado**: Ejemplo de interfaz gráfico con acciones asociadas. Muestra una ventana con un JLabel que cambia su texto cuando el usuario presiona una tecla.
+- **k_eventos_mouse**: Ejemplo de interfaz gráfico con acciones asociadas. Muestra una ventana que rastrea y responde a varios eventos del ratón
