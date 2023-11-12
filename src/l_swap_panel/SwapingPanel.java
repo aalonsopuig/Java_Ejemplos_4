@@ -4,31 +4,48 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class SwapingPanel extends JPanel implements ActionListener{
+/**
+ * SwapingPanel es un panel que permite intercambiar entre dos subpaneles: ExPanelEvents y ExPanelMouseListener.
+ * El intercambio se realiza mediante un botón.
+ */
+public class SwapingPanel extends JPanel implements ActionListener {
 
-    JPanel firstPanel = new ExPanelEvents();
-    JPanel secondPanel = new ExPanelMouseListener();
-    
+    private JPanel firstPanel = new ExPanelEvents(); // Primer subpanel
+    private JPanel secondPanel = new ExPanelMouseListener(); // Segundo subpanel
+
+    /**
+     * Constructor de SwapingPanel.
+     * Aquí se inicializan y configuran los componentes del panel.
+     */
     public SwapingPanel() {
-        super(new BorderLayout());
+        setLayout(new BorderLayout()); // Se establece BorderLayout como el administrador de diseño del panel
 
-        JButton swap1 = new JButton("Cambiar ventana");
-        swap1.addActionListener(this);
-        firstPanel.add(swap1,BorderLayout.NORTH);
-        add(firstPanel);
+        // Creación y configuración del botón para cambiar de panel
+        JButton botonSwap = new JButton("Cambiar ventana");
+        botonSwap.addActionListener(this); // Se añade el propio panel como oyente de los eventos del botón
+        add(botonSwap, BorderLayout.NORTH); // Se añade el botón en la parte superior del panel
+        add(firstPanel, BorderLayout.CENTER); // Se añade el primer subpanel al centro
     }
-    
+
+    /**
+     * Este método se invoca cuando se realiza una acción (como un clic) en el botón de cambio.
+     * Cambia entre mostrar el primer y el segundo subpanel.
+     * @param e El evento de acción.
+     */
+    @Override
     public void actionPerformed(ActionEvent e) {
+        // Intercambia los subpaneles y actualiza la interfaz
         for (Component component : getComponents())
             if (firstPanel == component) {
                 remove(firstPanel);
-                add(secondPanel);
+                add(secondPanel, BorderLayout.CENTER);
             } else {
                 remove(secondPanel);
-                add(firstPanel);
+                add(firstPanel, BorderLayout.CENTER);
             }
-        repaint();
-        revalidate();
-     }
+        repaint(); // Redibuja el panel
+        revalidate(); // Revalida la disposición de los componentes
+    }
 }
+
 
