@@ -47,4 +47,11 @@ Ejemplos disponibles:<br>
   
   ![image](https://github.com/aalonsopuig/Java_Ejemplos_4/assets/57196844/65d70090-6568-4275-8da2-38a6ae1c9883)
 
+- **l_swap_panel**: Ejemplo de interfaz gráfico con acciones asociadas que intercambia paneles activos.
+
+- **m_eventos_multiples**: Ejemplo de interfaz gráfico con acciones asociadas. Acciones con botones y ratón.
+
+  ![image](https://github.com/aalonsopuig/Java_Ejemplos_4/assets/57196844/dc18dd59-d425-45b2-8007-907fec719eef)
+
+
 
