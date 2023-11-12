@@ -11,3 +11,5 @@ Ejemplos disponibles:<br>
 - **e_swing_BorderLayout**: Creación con Java Swing de un interfaz con BorderLayout
 - **f_swing_BoxLayout**: Ejemplo de creación con Java Swing de un interfaz con BoxLayout
 - **g_swing_BoxLayout_2**: Creación con Java Swing de un interfaz con BoxLayout
+- **h_eventos_botones**: Ejemplo de interfaz gráfico con acciones asociadas. Al hacer clic en el botón, se muestra un mensaje en la consola
+- **i_eventos_botones_2**: Ejemplo de interfaz gráfico con acciones asociadas. Contiene dos botones para salir de la aplicación y cambiar el color de fondo del panel
